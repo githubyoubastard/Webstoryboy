@@ -16,5 +16,9 @@
 #contents5{width: 100%;height: 400px;background-color: #9c27b0;}
 
 /*헤드 영역*/
-.header{};
-.header h1
+.header{overflow: hidden}
+.header h1{float: left;width: 160px;background-color: white;}
+.header .nav{float: left;width: 600px;background-color: blue;}
+.header .nav li{display:inline;}
+.header .nav_icon{float: right;width: 200px;background-color: red;}
+.header .nav_icon li{display:inline}
