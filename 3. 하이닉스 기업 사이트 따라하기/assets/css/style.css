@@ -1,15 +1,15 @@
 /*layout*/
 .wrap{width: 100%;}
 #header{width: 100%; height: 95px;}
-#banner{width: 100%; height: 609px; background-color: #222;}
-#contents{width: 100%; height: 2000px; background-color: #333;}
+#banner{width: 100%; height: 609px;; overflow: hidden;}
+#contents{}
 #footer{width: 100%; height: 300px; background-color: #444;}
 
 /*가운데 영역*/
-.container{width: 1200px;height:inherit;margin:0 auto;/*background:rgba(0,0,0,0.2);*/}
+.container{width: 1200px;height:inherit;margin:0 auto; /*background:rgba(0,0,0,0.2);*/}
 
 /*컨텐츠 레이아웃*/
-#contents1{width: 100%; height: 400px;	background-color: #e1bee7;}
+#contents1{}
 #contents2{width: 100%; height: 400px;	background-color: #ce93d8;}
 #contents3{width: 100%; height: 400px;	background-color: #ba68c8;}
 #contents4{width: 100%; height: 400px;	background-color: #ab47bc;}
@@ -28,3 +28,25 @@
 .header .nav_icon li a:hover {color: #ea5d4b; }
 .header .nav_icon li a:hover i {color: #ea5d4b; }
 .header .nav_icon li span {display: block;}
+
+/*배너*/
+#banner{position:relative;}
+#banner .banner_icon {position:absolute; bottom:0; left:0; width:100%; height:67px;background-color: rgba(215,94,80,0.6);}
+#banner .banner_icon ul {overflow:hidden;}
+#banner .banner_icon ul li {float:left; width: 25%;text-align:center;padding-top:14px}
+#banner .banner_icon ul li a {color:#fff;}
+#banner .banner_icon ul li a i {font-size:20px;}
+#banner .banner_icon ul li a span{ display:block;}
+
+/*investor*/
+.investor {text-align:center; padding: 60px 0 70px;}
+.investor h2 {font-size: 26px;}
+.investor p {color: #666; margin-top:20px; margin:20px 0 36px;}
+.investor .investor_box {overflow:hidden; border-top:1px solid #eaeaea;}
+.investor .investor_box .ileft {float:left; width: 40%; height: 300px; margin-top: 20px}
+.investor .investor_box .iright {float:left; width: 59%; height: 300px; border-left:1px solid #eaeaea;}
+.investor .investor_box .iright ul {overflow:hidden;}
+.investor .investor_box .iright ul li{float:left; width: 33.3333%;margin-top:30px}
+.investor .investor_box .iright ul li i{color:#ec7768;font-size:30px; background-color: #f3f3f3; padding:10px;border-radius:50%;width: 40px;height: 40px;line-height: 40px;}
+.investor .investor_box .iright ul li a:hover{color:#555;}
+.investor .investor_box .iright ul li span{display: block;color:#555;font-size: 14px;color:#555; padding-top:10px;}
