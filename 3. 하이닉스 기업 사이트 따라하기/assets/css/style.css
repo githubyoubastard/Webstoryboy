@@ -1,24 +1,30 @@
 /*layout*/
 .wrap{width: 100%;}
-#header{width: 100%;height: 95px; background-color: #111;}
-#banner{width: 100%;height: 609px; background-color: #222;}
-#contents{width: 100%;height: 2000px;background-color: #333;}
-#footer{width: 100%;height: 300px; background-color: #444;}
+#header{width: 100%; height: 95px;}
+#banner{width: 100%; height: 609px; background-color: #222;}
+#contents{width: 100%; height: 2000px; background-color: #333;}
+#footer{width: 100%; height: 300px; background-color: #444;}
 
 /*가운데 영역*/
-.container{width: 1200px;height:inherit;margin:0 auto;background:rgba(255,255,255,0.2);}
+.container{width: 1200px;height:inherit;margin:0 auto;/*background:rgba(0,0,0,0.2);*/}
 
 /*컨텐츠 레이아웃*/
-#contents1{width: 100%;height: 400px;background-color: #e1bee7;}
-#contents2{width: 100%;height: 400px;background-color: #ce93d8;}
-#contents3{width: 100%;height: 400px;background-color: #ba68c8;}
-#contents4{width: 100%;height: 400px;background-color: #ab47bc;}
-#contents5{width: 100%;height: 400px;background-color: #9c27b0;}
+#contents1{width: 100%; height: 400px;	background-color: #e1bee7;}
+#contents2{width: 100%; height: 400px;	background-color: #ce93d8;}
+#contents3{width: 100%; height: 400px;	background-color: #ba68c8;}
+#contents4{width: 100%; height: 400px;	background-color: #ab47bc;}
+#contents5{width: 100%; height: 400px;	background-color: #9c27b0;}
 
 /*헤드 영역*/
-.header{overflow: hidden}
-.header h1{float: left;width: 160px;background-color: white;}
-.header .nav{float: left;width: 600px;background-color: blue;}
-.header .nav li{display:inline;}
-.header .nav_icon{float: right;width: 200px;background-color: red;}
-.header .nav_icon li{display:inline}
+.header {overflow: hidden;}
+.header h1 {float: left; width: 200px; margin-top: 17px; }
+.header .nav {float: left; width: 600px; margin-top: 40px;}
+.header .nav li {display: inline; padding: 0 20px;}
+.header .nav li a {font-size: 15px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.025em;}
+.header .nav_icon {float: right; margin-top: 30px; }
+.header .nav_icon li {float: left; width: 47px; text-align: center; margin-left: 10px;}
+.header .nav_icon li a {color: #767676; display: block;}
+.header .nav_icon li a i {font-size: 20px; }
+.header .nav_icon li a:hover {color: #ea5d4b; }
+.header .nav_icon li a:hover i {color: #ea5d4b; }
+.header .nav_icon li span {display: block;}

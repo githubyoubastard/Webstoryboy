@@ -4,5 +4,9 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,texta
 dl,ul,ol,menu,li{list-style:none;}
 /*링크초기화*/
 a{color:#222;text-decoration:none;}
-a:hover{color:#118eff;text-decoration:none;}
+a:hover{color:#ea5d4b; text-decoration:underline;}
 a:active{background-color:transparent;}
+/*폰트 초기화 소스*/
+body,th,td,input,select,textarea,button{font-size:13px;line-height:1.5;
+font-family:"Roboto", Malgun Gothic, "맑은 고딕", Dotum, "돋움", sans-serif;color:#222;letter-spacing:-1px}
+
